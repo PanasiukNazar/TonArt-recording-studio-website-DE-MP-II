@@ -7401,11 +7401,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
                                 : T.getScrollLeft() <= 0) &&
                             ((i = r), (r = 0))),
                     T.isrtlmode && (r = -r),
-                    z(r, i, t, !0)
-                        ? void (t && (q = !0))
-                        : ((q = !1),
-                          e.stopImmediatePropagation(),
-                          e.preventDefault()))
+                    z(r, i, t, !0) ? void (t && (q = !0)) : (q = !1))
                 );
             }
             var T = this;
